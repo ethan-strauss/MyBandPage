@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="index.html" class="home"> <h1>J.E.T.A</h1></a>
+      <ul>
+        <a href="Members.html"
+          ><li><h3>Band Members</h3></li></a
+        >
+        <a href="Music.html">
+          <li><h3>Music</h3></li></a
+        >
+        <a href="Contact.html"
+          ><li><h3>Contact</h3></li></a
+        >
+      </ul>
+    </nav>
+    <main>
+      <article>
+        <h1 class="contact">reach out!</h1>
+        <p class="hearFrom">
+          We would love to hear from anyone who's seen us perform or any venues
+          that are looking for bands to play! Fill out the form below and reach
+          out. We'd love to hear from you.
+        </p>
+        <form
+          action="mailto:ethancstrauss@gmail.com"
+          method="POST"
+          enctype="multipart/form-data"
+          name="EmailForm"
+          class="reachOut"
+        >
+          Name:<br />
+          <br />
+          <input
+            type="text"
+            size="20"
+            name="Contact-Name"
+            class="name"
+          /><br /><br />
+          Email:<br />
+          <br />
+          <input type="email" name="Contact-Email" class="email" /><br /><br />
+          Message:<br />
+          <br />
+          <textarea name="Contact-Message" rows="4″ cols=" 15″ class="message">
+          </textarea
+          ><br /><br />
+          <button type="submit" value="Submit" class="btn">Send</button>
+        </form>
+      </article>
+    </main>
+    <footer>
+      <ul>
+        J.E.T.A 2022
+        <li>
+          <a href="https://www.instagram.com/jeta_detroit/" target="_blank">
+            <img src="assets/icons8-instagram-24.png" alt=""
+          /></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
